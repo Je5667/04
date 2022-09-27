@@ -5,11 +5,12 @@
 
 int main(int argc, char *argv[]) {
 	
-	int x;
-	printf("input the second:\n");
-	scanf("%i",&x);
-
-	printf("%i second is %i : %i\n",x,x/60,x%60);
-	
-	return 0;
+	int x, y ;
+   printf("input the year: ");
+   scanf("%d", &x);
+    y =((x%4==0&&x%100!=0)||x%400==0);
+   printf("is the year %d the leap year? : %d",x,y);
+   
+   return 0;
+    
 }
