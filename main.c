@@ -13,9 +13,7 @@ int main(int argc, char *argv[]) {
 	for (b=0 ; x != 0; x >>= 1)
 	{
 		if  (x & 1)
-		{
-			b++;
-		}
+			b=b+1;
 	}
 	
 	printf("The result is : %i\n",b);
