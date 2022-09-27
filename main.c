@@ -5,14 +5,15 @@
 
 int main(int argc, char *argv[]) {
 	int x,y;
+	
 	printf("input two integers :\n");
 	scanf("%i %i",&x, &y);
 	
 	printf("+ result is %i\n",x+y);
 	printf("- result is %i\n",x-y);
 	printf("* result is %i\n",x*y);
-	printf("/ result is %f\n",x/y);
-	printf("%% result is %f\n",x%y);
+	printf("/ result is %i\n",x/y);
+	printf("%% result is %i\n",x%y);
 	
-	return 0;
+	return;
 }
